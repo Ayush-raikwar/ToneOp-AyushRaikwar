@@ -1,3 +1,34 @@
+
+ToneOP React Native application by - Ayush Raikwar
+
+NOTE - Please note that a Free News API is being used in this app, which is limited to 100 REQUESTS per 24 hours.
+
+APIs used - 
+      Youtube API v3 for videos
+      Newsapi.org api for news
+
+Packages used - 
+
+      for Navigation -
+         @react-navigation/bottom-tabs
+         @react-navigation/material-top-tabs
+         @react-navigation/native
+         @react-navigation/stack
+         
+      for API calling -
+         axios
+         
+      for UI - 
+         react-native-snap-carousel
+         react-native-svg
+         react-native-svg-transformer
+         react-native-tab-view
+         react-native-webview
+         react-native-youtube-iframe
+         react-native-video
+         
+      
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
