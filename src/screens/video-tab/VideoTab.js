@@ -33,23 +33,18 @@ export const VideoTab = React.memo(() => {
 
     const renderItem = ({ item }) => {
 
-        const handlePress = () => {
-            setPaused(prev => !prev)
-        }
 
 
         return (
             <View style={{ backgroundColor: 'rgba(0,0,0,.5)', width: '100%', flex: 1, justifyContent: 'center' }}>
                 <Text style={{ color: commonStyles.COLOR.WHITE, margin: 12 }} >{item?.snippet?.description}</Text>
-                <Pressable onPress={handlePress}>
 
-                    <YoutubePlayer
-                        height={300}
-                        play={playing}
-                        videoId={item?.id?.videoId}
-                        onChangeState={onStateChange}
-                    />
-                </Pressable>
+                <YoutubePlayer
+                    height={300}
+                    play={playing}
+                    videoId={item?.id?.videoId}
+                    onChangeState={onStateChange}
+                />
             </View>
         )
     }
