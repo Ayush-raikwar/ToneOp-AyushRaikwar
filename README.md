@@ -1,6 +1,12 @@
 
 ToneOP React Native application by - Ayush Raikwar
 
+NOTE - Please note that a Free News API is being used in this app, which is limited to 100 REQUESTS per 24 hours.
+
+APIs used - 
+      Youtube API v3 for videos
+      Newsapi.org api for news
+
 Packages used - 
 
       for Navigation -
